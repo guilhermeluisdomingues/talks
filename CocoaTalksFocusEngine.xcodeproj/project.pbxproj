@@ -12,9 +12,6 @@
 		DA72797A2B2BB3D600EE6C71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7279782B2BB3D600EE6C71 /* Main.storyboard */; };
 		DA72797C2B2BB3D800EE6C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA72797B2B2BB3D800EE6C71 /* Assets.xcassets */; };
 		DA72797F2B2BB3D800EE6C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA72797D2B2BB3D800EE6C71 /* LaunchScreen.storyboard */; };
-		DA7279892B2BB3D800EE6C71 /* CocoaTalksFocusEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7279882B2BB3D800EE6C71 /* CocoaTalksFocusEngineTests.swift */; };
-		DA7279932B2BB3D800EE6C71 /* CocoaTalksFocusEngineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7279922B2BB3D800EE6C71 /* CocoaTalksFocusEngineUITests.swift */; };
-		DA7279952B2BB3D800EE6C71 /* CocoaTalksFocusEngineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7279942B2BB3D800EE6C71 /* CocoaTalksFocusEngineUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +39,7 @@
 		DA72797B2B2BB3D800EE6C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA72797E2B2BB3D800EE6C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA7279842B2BB3D800EE6C71 /* CocoaTalksFocusEngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaTalksFocusEngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA7279882B2BB3D800EE6C71 /* CocoaTalksFocusEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTalksFocusEngineTests.swift; sourceTree = "<group>"; };
 		DA72798E2B2BB3D800EE6C71 /* CocoaTalksFocusEngineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaTalksFocusEngineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA7279922B2BB3D800EE6C71 /* CocoaTalksFocusEngineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTalksFocusEngineUITests.swift; sourceTree = "<group>"; };
-		DA7279942B2BB3D800EE6C71 /* CocoaTalksFocusEngineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTalksFocusEngineUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				DA7279732B2BB3D600EE6C71 /* CocoaTalksFocusEngine */,
-				DA7279872B2BB3D800EE6C71 /* CocoaTalksFocusEngineTests */,
-				DA7279912B2BB3D800EE6C71 /* CocoaTalksFocusEngineUITests */,
 				DA7279722B2BB3D600EE6C71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,23 +95,6 @@
 				DA72797D2B2BB3D800EE6C71 /* LaunchScreen.storyboard */,
 			);
 			path = CocoaTalksFocusEngine;
-			sourceTree = "<group>";
-		};
-		DA7279872B2BB3D800EE6C71 /* CocoaTalksFocusEngineTests */ = {
-			isa = PBXGroup;
-			children = (
-				DA7279882B2BB3D800EE6C71 /* CocoaTalksFocusEngineTests.swift */,
-			);
-			path = CocoaTalksFocusEngineTests;
-			sourceTree = "<group>";
-		};
-		DA7279912B2BB3D800EE6C71 /* CocoaTalksFocusEngineUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DA7279922B2BB3D800EE6C71 /* CocoaTalksFocusEngineUITests.swift */,
-				DA7279942B2BB3D800EE6C71 /* CocoaTalksFocusEngineUITestsLaunchTests.swift */,
-			);
-			path = CocoaTalksFocusEngineUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +237,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA7279892B2BB3D800EE6C71 /* CocoaTalksFocusEngineTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +244,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA7279932B2BB3D800EE6C71 /* CocoaTalksFocusEngineUITests.swift in Sources */,
-				DA7279952B2BB3D800EE6C71 /* CocoaTalksFocusEngineUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
